@@ -91,6 +91,7 @@ function draw() {
               else if (particle.body.position.x < 600 && particle.body.position.x > 301 ) 
               {
                     score = score + 100;
+
                     particle=null;
                     if ( count>= 5) gameState ="end";
 
